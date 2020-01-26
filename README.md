@@ -19,4 +19,4 @@ Reveal deeper information about highlighted text on a web page. When text is sel
 
 ### Available Settings
 
-<img src="settings.gif" alt="Preview" />
+<img src="settings.png" alt="Preview" />
