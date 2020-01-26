@@ -1,0 +1,215 @@
+.trjs .trjs-popover ul {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  line-height: 1.5 !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  margin-left: 15px !important;
+  margin-right: 5px !important; }
+
+.trjs .trjs-popover.trjs-popover--dark p {
+  color: #eeeeee !important; }
+
+.trjs {
+  background-color: #fff9c4;
+  user-select: none;
+  -moz-user-select: none;
+  z-index: 9999; }
+  .trjs a {
+    color: #f74547;
+    font-weight: normal;
+    text-decoration: none;
+    transition: color .4s ease; }
+    .trjs a:hover {
+      color: #ff8788; }
+  .trjs p {
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 1.5; }
+  .trjs .trjs-popover.trjs-popover--dark a {
+    color: #00adb5; }
+    .trjs .trjs-popover.trjs-popover--dark a:hover {
+      color: #19d8e0; }
+  .trjs hr {
+    background-color: #efefef;
+    border: 0;
+    border-top: 2px solid #efefef;
+    display: block;
+    margin: 20px 0;
+    padding: 0; }
+  .trjs .trjs-popover.trjs-popover--dark hr {
+    background-color: #000000;
+    border-top: 2px solid #000000; }
+  .trjs ul {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-left: 15px !important;
+    margin-right: 5px !important; }
+  .trjs dfn {
+    display: inline-block;
+    position: relative; }
+    .trjs dfn:before {
+      content: attr(title);
+      font-style: normal; }
+    .trjs dfn > .trjs-popover {
+      background-color: #ffffff;
+      border: none;
+      -webkit-box-shadow: 0px 0px 5px 1px #cccccc;
+      -moz-box-shadow: 0px 0px 5px 1px #cccccc;
+      box-shadow: 0px 0px 5px 1px #cccccc;
+      display: block;
+      min-height: 240px;
+      padding: 40px;
+      position: absolute;
+      text-align: left;
+      width: 400px !important; }
+      .trjs dfn > .trjs-popover--dark {
+        background-color: #222831 !important;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        color: #eeeeee !important; }
+  .trjs .trjs-popover {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Open Sans";
+    font-style: normal;
+    z-index: 9999; }
+    .trjs .trjs-popover--dark {
+      color: #eeeeee; }
+      .trjs .trjs-popover--dark .trjs__header, .trjs .trjs-popover--dark .wiki-search__header, .trjs .trjs-popover--dark .dictionary__header {
+        color: #eeeeee; }
+  .trjs__header {
+    font-family: "Crimson Text" !important;
+    font-size: 35px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 48px !important;
+    margin: 0 0 20px 0 !important;
+    text-transform: none !important; }
+  .trjs__wiki-summary-header {
+    animation-delay: 0.3s;
+    font-style: normal;
+    font-weight: normal; }
+  .trjs .wiki-summary {
+    animation-delay: 0.3s; }
+    .trjs .wiki-summary__link {
+      white-space: nowrap; }
+  .trjs .wiki-search__header {
+    font-family: "Open Sans" !important;
+    font-size: 14px !important;
+    font-weight: bold; }
+  .trjs .dictionary {
+    animation-delay: 0.6s; }
+    .trjs .dictionary__header {
+      font-family: "Crimson Text";
+      font-size: 20px !important;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 10px; }
+    .trjs .dictionary__pronunciation {
+      color: #aaaaaa;
+      font-family: "Open Sans";
+      font-size: 16px !important;
+      font-style: italic;
+      font-weight: normal;
+      margin: 0; }
+    .trjs .dictionary__type {
+      font-weight: normal;
+      margin-top: 5px;
+      margin-bottom: 25px; }
+    .trjs .dictionary__more-link {
+      font-size: 16px !important; }
+  .trjs .fadeInAnimated {
+    top: 0;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.trjs-popover #trjs-close {
+  height: 32px;
+  position: absolute;
+  right: 32px;
+  top: 16px;
+  width: 16px; }
+  .trjs-popover #trjs-close .icon {
+    display: inline-block;
+    fill: #aaaaaa !important;
+    height: 32px;
+    stroke-width: 0;
+    stroke: #aaaaaa !important;
+    transition: fill .4s ease;
+    width: 32px; }
+    .trjs-popover #trjs-close .icon:hover {
+      cursor: pointer;
+      fill: #000000 !important;
+      stroke: #000000 !important; }
+
+.trjs-popover.trjs-popover--dark #trjs-close .icon {
+  fill: #393e46 !important;
+  stroke: #393e46 !important; }
+  .trjs-popover.trjs-popover--dark #trjs-close .icon:hover {
+    fill: #eeeeee !important;
+    stroke: #eeeeee !important; }
+
+.trjs-toggle-container {
+  display: block !important;
+  position: absolute; }
+  .trjs-toggle-container .trjs-toggle-inner {
+    bottom: 60px;
+    left: 50px;
+    position: fixed;
+    z-index: 9999; }
+  .trjs-toggle-container .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px; }
+    .trjs-toggle-container .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0; }
+      .trjs-toggle-container .switch input:checked + .slider {
+        background-color: #2196F3; }
+      .trjs-toggle-container .switch input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3; }
+      .trjs-toggle-container .switch input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px); }
+  .trjs-toggle-container .slider {
+    background-color: #eeeeee;
+    bottom: 0;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    width: 100%; }
+    .trjs-toggle-container .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: #ffffff;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .trjs-toggle-container .slider.round {
+      border-radius: 34px; }
+      .trjs-toggle-container .slider.round:before {
+        border-radius: 50%; }

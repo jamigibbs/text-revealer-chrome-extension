@@ -1,0 +1,42 @@
+{
+  "name": "Text Revealer",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Reveal deeper information about text you highlight on a web page.",
+  "homepage_url": "https://github.com/jamigibbs/text-revealer-chrome-extension",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": false,
+    "chrome_style": true
+  },
+  "permissions": [
+    "*://*/*",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "css": [
+        "src/inject/text-revealer.css"
+      ]
+    },
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "src/inject/text-revealer.js",
+        "src/inject/init.js"
+      ]
+    }
+  ]
+}

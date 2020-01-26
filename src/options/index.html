@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Test Extension Options</title></head>
+<style>
+  .tr-option {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .tr-option label {
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  #status {
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+  }
+  input[type="number"], input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px;
+  }
+  input[type="number"] {
+    width: 50%
+  }
+  input[type="text"] {
+    width: 100%
+  }
+  .help-text {
+    color: #aaaaaa;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 0;
+  }
+  .help-text a {
+    color: #aaaaaa;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .help-text a:hover {
+    color: #333333;
+  }
+  .info-box {
+    background-color: #efefef;
+    color: green;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+  }
+  .info-box a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+  }
+</style>
+<body>
+
+  <div class="info-box">Did you find a bug? Help us improve this extension! <br/><a href="https://github.com/jamigibbs/text-revealer-chrome-extension/issues/new">Submit your issue</a>.</div>
+
+  <div class="tr-option">
+    <label>Popover Skin:</label>
+    <select id="skin">
+    <option value="light" selected>light</option>
+    <option value="dark">dark</option>
+    </select>
+  </div>
+
+  <div class="tr-option">
+    <label>Popover Delay (ms)</label>
+    <p class="help-text">The amount of time to delay the popover content in milliseconds. Default 500.</p>
+    <input type="number" id="delay" value="500" min="100" max="2000" step="100">
+  </div>
+
+  <div class="tr-option">
+    <label>Mirriam Webster Dictionary API Key</label>
+    <p class="help-text">Activate the dictionary by entering your API key from <a href="https://dictionaryapi.com/">dictionaryapi.com</a></p>
+    <input type="text" id="dictionaryKey" value=""></input>
+  </div>
+
+  <div class="tr-option">
+    <label>Max Text Highlight Count</label>
+    <p class="help-text">The maximum number of words trigger the revealer content. Default 3.</p>
+    <input type="number" id="maxTextCount" value="3"></input>
+  </div>
+
+  <button id="save">Save</button>
+
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
