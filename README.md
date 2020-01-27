@@ -22,6 +22,7 @@ This extension isn't yet avaialble on the Chrome Web Store (soon!). In the meant
 
 1. [Download this repository](https://github.com/jamigibbs/text-revealer-chrome-extension/archive/master.zip).
 2. Navigate to the Chrome menu > More Tools > Extensions
+3. Rename the folder from `text-revealer-chrome-extension-master` to `text-revealer-chrome-extension`
 3. Select "Load unpacked"
 4. Select the downloaded folder unzipped.
 
