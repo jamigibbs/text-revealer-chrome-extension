@@ -12,6 +12,8 @@ Reveal deeper information about highlighted text on a web page. When text is sel
 
 ### Loading In Chrome
 
+Not yet avaialble on the Chrome Web Store. In the meantime, it can be installed with these steps:
+
 1. [Download this repository](https://github.com/jamigibbs/text-revealer-chrome-extension/archive/master.zip).
 2. Navigate to the Chrome menu > More Tools > Extensions
 3. Select "Load unpacked"
