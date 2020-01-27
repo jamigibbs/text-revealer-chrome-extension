@@ -33,6 +33,6 @@ After activating the extenions, settings are available by clicking the Text Reve
 
 ## Call for help
 
-Because this script is intended to be loaded across a wide variety of sites, it's difficult for a single person to test it against all of the many possibilities that it could encounter. So if you find an issue whether it be CSS or scripting, please [log an issue](https://github.com/jamigibbs/text-revealer-chrome-extension/issues/new) that includes the URL, screenshots, and a detailed explanation of the the issue you're seeing.
+Because this script is intended to be loaded across a wide variety of sites, it's difficult for a single person to test it against all of the many possibilities that it could encounter. So if you find an issue whether it be CSS or scripting, please [log an issue](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) that includes the URL, screenshots, and a detailed explanation of the the issue you're seeing.
 
 
