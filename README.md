@@ -1,6 +1,6 @@
 <img src="logo.jpg" alt="Text Revealer" width="100%"/>
 
-# TextRevealer.js
+# TextRevealer Chrome Extension
 
 Reveal deeper information about highlighted text on a web page. When text is selected, a popover displays useful details about the text such as:
 
