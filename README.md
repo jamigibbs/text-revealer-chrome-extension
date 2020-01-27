@@ -10,7 +10,7 @@ Reveal deeper information about highlighted text on a web page. When text is sel
 
 Demo: [https://jamigibbs.github.io/text-revealer-js/](https://jamigibbs.github.io/text-revealer-js/)
 
-There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-js) available too. The script for this extension is generated from that project.
+There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-js) available too. The script for this extension is generated from that project so please report any issues on [that repo](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) unless it's a Chrome Extension specific issue.
 
 ## Preview
 
@@ -18,7 +18,7 @@ There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-
 
 ## Loading In Chrome
 
-This extension isn't yet avaialble on the Chrome Web Store (soon!). In the meantime, it can be installed with these steps:
+This extension isn't yet available on the Chrome Web Store (soon!). In the meantime, it can be installed with these steps:
 
 1. [Download this repository](https://github.com/jamigibbs/text-revealer-chrome-extension/archive/master.zip).
 2. Navigate to the Chrome menu > More Tools > Extensions
@@ -28,12 +28,12 @@ This extension isn't yet avaialble on the Chrome Web Store (soon!). In the meant
 
 ## Available Settings
 
-After activating the extenions, settings are available by clicking the Text Revealer icon in ypur browser navigation bar and selecting "Options":
+After activating the extenion, settings are available by clicking the Text Revealer icon in your browser navigation bar and selecting "Options":
 
 <img src="settings.png" alt="Settings" width=400 />
 
 ## Call for help
 
-Because this script is intended to be loaded across a wide variety of sites, it's difficult for a single person to test it against all of the many possibilities that it could encounter. So if you find an issue whether it be CSS or scripting, please [log an issue](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) that includes the URL, screenshots, and a detailed explanation of the the issue you're seeing.
+Because this script is intended to be loaded across a wide variety of sites, it's difficult for a single person to test it against all of the many possibilities that it could encounter. So if you find an issue whether it be CSS or scripting, please [log an issue](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) that includes the URL, screenshots, and a detailed explanation of the the issue you're seeing. Feature requests also welcome!
 
 
