@@ -1,6 +1,6 @@
 {
   "name": "Text Revealer",
-  "version": "1.0.0",
+  "version": "1.0.0.200127",
   "manifest_version": 2,
   "description": "Reveal deeper information about text you highlight on a web page.",
   "homepage_url": "https://github.com/jamigibbs/text-revealer-chrome-extension",

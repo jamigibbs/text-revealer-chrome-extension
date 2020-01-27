@@ -25,8 +25,6 @@
 		myTextRevealer.options.delay = items.delay || 500;
 		myTextRevealer.options.skin = items.skin || 'light';
 		myTextRevealer.options.maxTextCount = items.maxTextCount || 3;
-
-		console.log('myTextRevealer 2', myTextRevealer.options)
 	});
 
 	/**
