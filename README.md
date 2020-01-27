@@ -6,6 +6,8 @@ Reveal deeper information about highlighted text on a web page. When text is sel
 - Dictionary definition
 - ...and more to come.
 
+There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-js) available too. The script for this extension is generated from that project.
+
 ### Preview
 
 [<img src="preview.gif" alt="Preview" />](https://jamigibbs.github.io/text-revealer-js/)
@@ -22,3 +24,5 @@ Not yet avaialble on the Chrome Web Store. In the meantime, it can be installed 
 ### Available Settings
 
 <img src="settings.png" alt="Settings" width=400 />
+
+
